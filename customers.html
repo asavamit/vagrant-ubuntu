@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML Layout</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+
+<div class="container">
+
+<header>
+   <h1>Myra Collections</h1>
+</header>
+
+
+<nav>
+  <ul>
+    <li><a href="products.html">Product</a></li>
+    <li><a href="customers.html">Customers</a></li>
+    <li><a href="vendors.html">Vendors</a></li>
+  </ul>
+</nav>
+
+
+<article>
+  <h1 style="text-align: center;">Administration - Customers</h1>
+  <p id="p01"> Add Customers to Master
+  </p>
+  
+  <form action="getData.php" method="post" style="text-align: center;">
+
+	<label>Product ID:</label>
+	<input type="text" name="pr_id">	
+	<br>
+	<label>Product Name:</label>
+	<input type="text" name="pr_name">
+	<br>
+	<input type="submit">
+	<input type="reset">
+	
+</form>
+</p>
+</article>
+
+<!--
+<section>
+<p>this is section</p>
+</section>
+
+<aside>
+<p>this is section</p>
+</aside> -->
+ 
+
+<footer>Copyright © W3Schools.com</footer>
+
+</div>
+
+</body>
+</html>
+
