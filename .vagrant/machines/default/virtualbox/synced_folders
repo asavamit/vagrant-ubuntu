@@ -1,1 +1,1 @@
-{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"E:/vagrant-ubuntu","disabled":false,"__vagrantfile":true}}}
+{"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"E:/repos/vagrant-ubuntu","disabled":false,"__vagrantfile":true}}}
